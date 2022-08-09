@@ -1,4 +1,4 @@
-package graph
+package src
 
 import "testing"
 

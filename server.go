@@ -7,8 +7,8 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/joseporres/sonarcloud_example/graph"
 	"github.com/joseporres/sonarcloud_example/graph/generated"
+	"github.com/joseporres/sonarcloud_example/graph/src"
 )
 
 const defaultPort = "8080"
@@ -19,7 +19,7 @@ func main() {
 		port = defaultPort
 	}
 
-	r := graph.Resolver{}
+	r := src.Resolver{}
 	r.InitializePool()
 
 	srv := handler.NewDefaultServer(generated.NewExecutableSchema(generated.Config{Resolvers: &r}))
