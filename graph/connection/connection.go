@@ -12,7 +12,7 @@ func FetchConnection() *sql.DB {
 
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
-		panic(err)
+		return nil
 	}
 
 	db.SetMaxIdleConns(25)
