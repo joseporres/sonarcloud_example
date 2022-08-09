@@ -1,9 +1,9 @@
-package example_test
+package tests
 
 import (
 	"testing"
 
-	"github.com/joseporres/sonarcloud_example/example"
+	"github.com/joseporres/sonarcloud_example/example/handler"
 	"github.com/stretchr/testify/assert"
 )
 
