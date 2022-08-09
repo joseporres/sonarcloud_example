@@ -19,10 +19,10 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: go build -v ./example/tests
+      run: go build -v ./example/handler
 
     - name: Test
-      run: go test -json -coverprofile=cover.out ./... > result.json
+      run: go test -json -coverprofile=cover.out ./example/tests > result.json
 
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@master
