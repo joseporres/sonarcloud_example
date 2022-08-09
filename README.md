@@ -1,5 +1,9 @@
-# golang-sonarcloud-example
+# API for university
 
-*   [GitHub Actions設定](./.github/workflows/go.yml)
-*   [sonar-project.properties](./sonar-project.properties)
-*   [SonarCloudレポート](https://sonarcloud.io/dashboard?id=ototadana_golang-sonarcloud-example)
+## Coverage by codecov
+[![codecov](https://codecov.io/gh/Sanki0/api-university/branch/develop/graph/badge.svg?token=WCLZ3IG55P)](https://codecov.io/gh/Sanki0/api-university)
+
+## Members
+1. Sebastian Ferreyra
+2. Cesar Santos
+3. Jose Adrian
