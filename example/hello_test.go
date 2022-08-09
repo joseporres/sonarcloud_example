@@ -3,7 +3,7 @@ package example_test
 import (
 	"testing"
 
-	"github.com/ototadana/golang-sonarcloud-example/example"
+	"github.com/joseporres/sonarcloud_example/example"
 	"github.com/stretchr/testify/assert"
 )
 
